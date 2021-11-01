@@ -3,7 +3,7 @@ pragma solidity 0.8.9;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract MyNFTs is ERC721 {
+contract MyNFT is ERC721 {
     uint256 token_count;
 
     constructor() ERC721("My NFT", "MNFT") {}
